@@ -60,12 +60,12 @@ public class M06uf3_exist {
         //imprimirLibros(cs.obtenirLlibres());
 
         //CERCAR PER TITOL
-        imprimiLibro(cs.cercarNom("instant html"));
+//        imprimiLibro(cs.cercarNom("instant html"));
 
 //        cs.eliminarEtiqueta(etiqueta);
 //        cs.eliminarAtribut(atributo);
-        cs.eliminarLlibre(codigo);
-        imprimirLibros(cs.obtenirLlibres());
+    //    cs.eliminarLlibre(codigo);
+  //      imprimirLibros(cs.obtenirLlibres());
 
     }
 
