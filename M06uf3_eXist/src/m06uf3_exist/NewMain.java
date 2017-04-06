@@ -35,7 +35,7 @@ public class NewMain {
         //cs.cercarPlantesZone(4);
    
         
-        cs.modificarPreuPlanta(16, "Commonname");
+        //cs.modificarPreuPlanta(16, "Commonname");
     }
     
     

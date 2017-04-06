@@ -1,7 +1,5 @@
 package Activitat2;
 
-import org.xmldb.api.base.Collection;
-
 public class NewMain {
 
    
@@ -24,9 +22,13 @@ public class NewMain {
         //System.out.println( c.cercarEnColeccio("cosa", "plantes.xml"));
         //System.out.println( c.cercarEnColeccio("cosa", "plantiquis"));
         
+        //c.crearColeccio("Coleccao");
         
+        //c.pujarXML("C:\\Users\\ALUMNEDAM\\Desktop\\cosa.xml", "cosaxmlhehe.xml");
+    
+        //XMLResource xml = c.obtenirXML("libros.xml");
         
-        System.out.println();
+        c.generarBinario("C:\\Users\\ALUMNEDAM\\Desktop\\fondos de pantalla\\fondo.png", "fondo");
     }
 
 }

@@ -20,7 +20,7 @@ public class ConfigConnexio {
         try {
             dbDriver = (Database) Class.forName("org.exist.xmldb.DatabaseImpl").newInstance();
             DatabaseManager.registerDatabase(dbDriver);
-            coll = DatabaseManager.getCollection("xmldb:exist://localhost:8080/exist/xmlrpc/db", "admin", "admin");
+            coll = DatabaseManager.getCollection("xmldb:exist://localhost:8080/exist/xmlrpc/db/cosa", "admin", "admin");
             
 
         } catch (ClassNotFoundException | XMLDBException | InstantiationException | IllegalAccessException ex) {
